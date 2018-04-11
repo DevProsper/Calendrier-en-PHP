@@ -10,7 +10,7 @@ use Exception;
  * Time: 01:18
  */
 class Month
-{	
+{
 	public $days = ['Lundi', 'Mari','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
     private $months = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'];
     public $month;
@@ -56,9 +56,9 @@ class Month
     }
 
     /**
-     * Renvoie le nombre de semaine dans le moi
-     * Trouvez le premier jour de notre moi, le dernier jour de notre moi, de prendre le numéro de semaine du premier jour
-     * le numéro de semaine du dernier jour et de faire une soustraction
+     * Renvoie le nombre de semaine dans le mois
+     * Trouver le premier e dernier jour du moi,obtenir le numéro de la semaine du premier jour
+     * le numéro de la semaine du dernier jour et de faire une soustraction
      * @return int
      */
     public function getWeeks() : int{
@@ -72,7 +72,7 @@ class Month
     }
 
     /**
-     *Pour récupérer cette information, il suffit de comparer en formatant le moi et l'année de notre date
+     * Pour récupérer cette information, il suffit de comparer en formatant le mois et l'année de notre date
      * au moi et à l'année que l'on a au niveau du constructeur
      * Est-ce que le jour est dans le moi en cours
      * @param DateTime $date
@@ -102,11 +102,11 @@ class Month
      * @return Month
      */
     public function previousMonth() : Month{
-        $month = $this->month - 1;
+        $month = $this->month -1;
         $year = $this->year;
         if($month < 1){
-            $month = 1;
-            $year += 1;
+            $month = 12;
+            $year -= 1;
         }
         return new Month($month, $year);
     }
