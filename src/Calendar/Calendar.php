@@ -1,21 +1,22 @@
 <?php
-namespace App\Date;
+namespace Calendar;
 use DateTime;
 use Exception;
 
 /**
  * Created by PhpStorm.
  * User: DevProsper
- * Date: 11/04/2018
+ * Calendar: 11/04/2018
  * Time: 01:18
  */
-class Month
+class Calendar
 {
 	public $days = ['Lundi', 'Mari','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
-    private $months = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'];
+    private $months = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aout',
+    'Septembre','Octobre','Novembre','Décembre'];
     public $month;
     public $year;
-    
+
     /**
      * Month constructor
      * @param int $month Le mois compris entre 1 et 12
@@ -85,30 +86,29 @@ class Month
 
     /**
      * Renvoie le moi suivant
-     * @return Month
+     * @return Calendar
      */
-    public function nextMonth() : Month{
+    public function nextMonth() : Calendar{
         $month = $this->month +1;
         $year = $this->year;
         if($month > 12){
             $month = 1;
             $year += 1;
         }
-        return new Month($month, $year);
+        return new Calendar($month, $year);
     }
-
 
     /**
      * Renvoie le moi précédent
-     * @return Month
+     * @return Calendar
      */
-    public function previousMonth() : Month{
+    public function previousMonth() : Calendar{
         $month = $this->month -1;
         $year = $this->year;
         if($month < 1){
             $month = 12;
             $year -= 1;
         }
-        return new Month($month, $year);
+        return new Calendar($month, $year);
     }
 }

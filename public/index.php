@@ -8,14 +8,19 @@
 </head>
 <body>
 <nav class="navbar navbar-dark bg-primary mb-3">
-	<a href="/index.php"class="navbar-brand">Mon Calendrier</a>
+	<a href="/index.php"class="navbar-brand">Calendrier en PHP</a>
 </nav>
 <?php
-use App\Date\Month;
 
-require '../src/Date/Month.php';
-$month = new Month($_GET['month'] ?? null, $_GET['year'] ?? null);
-$start = $month->getStartingDay()->modify('last monday');
+require '../src/Calendar/Calendar.php';
+require '../src/Calendar/Events.php';
+$events = new \Calendar\Events();
+$month = new Calendar\Calendar($_GET['month'] ?? null, $_GET['year'] ?? null);
+$start = $month->getStartingDay();
+$start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
+$weeks = $month->getWeeks();
+$end = (clone $start)->modify('+' .(6 +7 *($weeks-1)). ' days');
+$events = $events->getEventsBetweenByDay($start, $end);
 ?>
 <div class="d-flex flex-row align-items-center justify-content-between mx-sm-3">
 	<h1><?= $month->toString();  ?></h1>
@@ -26,8 +31,8 @@ $start = $month->getStartingDay()->modify('last monday');
 		   class="btn btn-primary">&gt</a>
 	</div>
 </div>
-<table class="calendar__table calendar__table--<?= $month->getWeeks();?>weeks">
-	<?php for($i = 0;  $i < $month->getWeeks(); $i++):
+<table class="calendar__table calendar__table--<?= $weeks;?>weeks">
+	<?php for($i = 0;  $i < $weeks; $i++):
 		?>
 		<tr>
 			<?php foreach ($month->days as $k => $day): 
