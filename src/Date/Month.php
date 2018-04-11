@@ -15,6 +15,7 @@ class Month
     private $months = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'];
     public $month;
     public $year;
+    
     /**
      * Month constructor
      * @param int $month Le mois compris entre 1 et 12
