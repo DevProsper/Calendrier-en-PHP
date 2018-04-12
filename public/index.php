@@ -11,7 +11,8 @@ $events = $events->getEventsBetweenByDay($start, $end);
 
 require '../views/header.php';
 ?>
-<div class="d-flex flex-row align-items-center justify-content-between mx-sm-3">
+<div class="calendar">
+	<div class="d-flex flex-row align-items-center justify-content-between mx-sm-3">
 	<h1><?= $month->toString();  ?></h1>
 	<div>
 		<a href="/index.php?month=<?= $month->previousMonth()->month; ?>&year=<?= $month->previousMonth()->year; ?>"
@@ -49,4 +50,6 @@ require '../views/header.php';
 			
 		</tr>
 	<?php endfor;?>
+	<a href="/add.php" class="calendar__button">+</a>
+</div>
 <?php require '../views/footer.php'; ?>
