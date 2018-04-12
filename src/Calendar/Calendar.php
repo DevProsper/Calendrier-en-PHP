@@ -50,7 +50,7 @@ class Calendar
     }
 
     /**
-     * Renvoie le premier jour de moi
+     * Renvoie le premier jour du moi
      * @return DateTime
      */
     public function getStartingDay() : DateTime{
@@ -59,11 +59,11 @@ class Calendar
 
     /**
      * Renvoie le nombre de semaine dans le mois
-     * Trouver le premier e dernier jour du moi,obtenir le numéro de la semaine du premier jour
+     * Trouver le premier te le dernier jour du moi,obtenir le numéro de la sema ine du premier jour,
      * le numéro de la semaine du dernier jour et de faire une soustraction
      * @return int
      */
-    public function getWeeks() : int{
+    public function getWeeks() : int {
         $start = $this->getStartingDay();
         $end = (clone $start)->modify('+1 month -1 day');
         $weeks =  intval($end->format('W')) - intval($start->format('W')) + 1;

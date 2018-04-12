@@ -6,5 +6,10 @@
             "email": "prosperngouari38@gmail.com"
         }
     ],
+    "autoload":{
+    	"psr-4":{
+    		"Calendar\\": "src/Calendar"
+    	}
+    },
     "require": {}
 }
