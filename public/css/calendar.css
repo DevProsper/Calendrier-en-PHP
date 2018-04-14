@@ -30,6 +30,9 @@
 .calendar_othermonth .calendar__day{
 	opacity: 0.3;
 }
+.calendar__table td.is-today{
+	background-color: #dffbf6;
+}
 .calendar__button {
 	width: 55px;
 	height: 55px;

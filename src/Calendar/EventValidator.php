@@ -10,11 +10,6 @@ use App\Validator;
  *
  * Validé les données qui ont été posté par rapport a l'événement
  */
-
-
-
-
-
 class EventValidator extends Validator
 {
 
@@ -24,7 +19,11 @@ class EventValidator extends Validator
      */
     public function validates(array $data){
         parent::validates($data);
-        $this->validate('name', 'minLenght',30);
+        $this->validate('name', 'minLenght',1);
+        $this->validate('date', 'date');
+        $this->validate('start', 'time');
+        $this->validate('end', 'time');
+        $this->validate('start', 'beforeTime', 'end');
         return $this->errors;
     }
 
