@@ -21,7 +21,7 @@ $data = [
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = $_POST;
     $validator = new Calendar\EventValidator();
-    $errors = $validator->validates($_POST);
+    $errors = $validator->validates($data);
     if(empty($errors)){
         $events->hydrate($event, $data);
         $events->update($event);

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9385531b-af7a-4cb3-8299-56aca30eda3b" name="Default" comment="" />
+    <list default="true" id="9385531b-af7a-4cb3-8299-56aca30eda3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calendar/Calendar.php" afterPath="$PROJECT_DIR$/src/Calendar/Calendar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calendar/EventValidator.php" afterPath="$PROJECT_DIR$/src/Calendar/EventValidator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calendar/Events.php" afterPath="$PROJECT_DIR$/src/Calendar/Events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/add.php" afterPath="$PROJECT_DIR$/public/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/edit.php" afterPath="$PROJECT_DIR$/public/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Calendrier.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38267148">
-              <caret line="43" column="115" selection-start-line="43" selection-start-column="115" selection-end-line="43" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/calendar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6296296">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -45,7 +43,7 @@
       <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calendar/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.038462">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#255#285#0#PHP" expanded="false" />
@@ -66,8 +64,8 @@
       <file leaf-file-name="Calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calendar/Calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3076925">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.269231">
+              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -76,8 +74,8 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8490567">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -86,8 +84,28 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/calendar/form_event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,28 +114,18 @@
       <file leaf-file-name="EventValidator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calendar/EventValidator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validator.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Validator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/Validator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.038462">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="-0.34423408">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -126,27 +134,27 @@
       <file leaf-file-name="Events.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calendar/Events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.692307">
-              <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state vertical-scroll-proportion="-33.384617">
+              <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
                 <element signature="e#116#129#0#PHP" expanded="true" />
-                <element signature="e#199#270#0#PHP" expanded="false" />
-                <element signature="e#951#1391#0#PHP" expanded="false" />
-                <element signature="e#1514#1904#0#PHP" expanded="false" />
-                <element signature="e#1999#2383#0#PHP" expanded="false" />
-                <element signature="e#2930#3350#0#PHP" expanded="false" />
-                <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-                <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-                <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-                <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+                <element signature="e#245#316#0#PHP" expanded="false" />
+                <element signature="e#1051#1509#0#PHP" expanded="false" />
+                <element signature="e#1632#2022#0#PHP" expanded="false" />
+                <element signature="e#2117#2501#0#PHP" expanded="false" />
+                <element signature="e#3066#3486#0#PHP" expanded="false" />
+                <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+                <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+                <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+                <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -166,15 +174,15 @@
         <option value="$PROJECT_DIR$/src/bootstrap.php" />
         <option value="$PROJECT_DIR$/public/event.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Calendar/EventValidator.php" />
         <option value="$PROJECT_DIR$/src/Calendar/Event.php" />
-        <option value="$PROJECT_DIR$/src/Calendar/Events.php" />
         <option value="$PROJECT_DIR$/src/App/Validator.php" />
+        <option value="$PROJECT_DIR$/public/css/calendar.css" />
+        <option value="$PROJECT_DIR$/src/Calendar/Events.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/src/Calendar/Calendar.php" />
         <option value="$PROJECT_DIR$/public/add.php" />
         <option value="$PROJECT_DIR$/public/edit.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/public/css/calendar.css" />
+        <option value="$PROJECT_DIR$/src/Calendar/EventValidator.php" />
       </list>
     </option>
   </component>
@@ -298,6 +306,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendrier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calendrier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,7 +467,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16398244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -479,6 +505,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calendar/EventValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Validator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calendar/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#116#129#0#PHP" expanded="true" />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -558,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,22 +661,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -620,22 +712,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -671,22 +763,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -722,22 +814,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -765,22 +857,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -808,22 +900,22 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -858,19 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,60 +965,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calendar/EventValidator.php">
+    <entry file="file://$PROJECT_DIR$/public/css/calendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calendar/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.692307">
-          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <element signature="e#116#129#0#PHP" expanded="true" />
-            <element signature="e#199#270#0#PHP" expanded="false" />
-            <element signature="e#951#1391#0#PHP" expanded="false" />
-            <element signature="e#1514#1904#0#PHP" expanded="false" />
-            <element signature="e#1999#2383#0#PHP" expanded="false" />
-            <element signature="e#2930#3350#0#PHP" expanded="false" />
-            <marker date="1523647919765" expanded="true" signature="517:559" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:593" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:608" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:640" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:641" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="517:661" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1628" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="1595:1638" placeholder="SELECT * FRO..events..." />
-            <marker date="1523647919765" expanded="true" signature="2085:2148" placeholder="INSERT INTO ..." />
-            <marker date="1523647919765" expanded="true" signature="3016:3087" placeholder="UPDATE event..." />
-            <marker date="1523647919765" expanded="true" signature="3034:3076" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Validator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.038462">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8490567">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calendar/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.038462">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#255#285#0#PHP" expanded="false" />
@@ -952,34 +992,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/edit.php">
+    <entry file="file://$PROJECT_DIR$/src/Calendar/Events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state vertical-scroll-proportion="-33.384617">
+          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#116#129#0#PHP" expanded="true" />
+            <element signature="e#245#316#0#PHP" expanded="false" />
+            <element signature="e#1051#1509#0#PHP" expanded="false" />
+            <element signature="e#1632#2022#0#PHP" expanded="false" />
+            <element signature="e#2117#2501#0#PHP" expanded="false" />
+            <element signature="e#3066#3486#0#PHP" expanded="false" />
+            <marker date="1524272670957" expanded="true" signature="600:642" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:676" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:691" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:723" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:724" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="600:744" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1746" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="1713:1756" placeholder="SELECT * FRO..events..." />
+            <marker date="1524272670957" expanded="true" signature="2203:2266" placeholder="INSERT INTO ..." />
+            <marker date="1524272670957" expanded="true" signature="3152:3223" placeholder="UPDATE event..." />
+            <marker date="1524272670957" expanded="true" signature="3170:3212" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calendar/Calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3076925">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.269231">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/calendar.css">
+    <entry file="file://$PROJECT_DIR$/public/event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6296296">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/public/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38267148">
-          <caret line="43" column="115" selection-start-line="43" selection-start-column="115" selection-end-line="43" selection-end-column="115" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/calendar/form_event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calendar/EventValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Validator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.34423408">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="42" />
           <folding />
         </state>
       </provider>

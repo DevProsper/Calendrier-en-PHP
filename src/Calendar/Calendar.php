@@ -1,6 +1,7 @@
 <?php
 namespace Calendar;
 use DateTime;
+use DateTimeInterface;
 use Exception;
 
 /**
@@ -51,10 +52,10 @@ class Calendar
 
     /**
      * Renvoie le premier jour du moi
-     * @return DateTime
+     * @return DateTimeInterface
      */
-    public function getStartingDay() : DateTime{
-        return new \DateTime("{$this->year}-{$this->month}-01");
+    public function getStartingDay() : \DateTimeInterface{
+        return new \DateTimeImmutable("{$this->year}-{$this->month}-01");
     }
 
     /**
@@ -65,8 +66,13 @@ class Calendar
      */
     public function getWeeks() : int {
         $start = $this->getStartingDay();
-        $end = (clone $start)->modify('+1 month -1 day');
-        $weeks =  intval($end->format('W')) - intval($start->format('W')) + 1;
+        $end = $start->modify('+1 month -1 day');
+        $startweek = intval($start->format('W'));
+        $endweek =  intval($end->format('W'));
+        if($endweek === 1){
+            $endweek = intval($end->modify('- 7 days')->format('W')) + 1;
+        }
+        $weeks = $endweek - $startweek + 1;
         if($weeks < 0){
             $weeks =  intval($end->format('W'));
         }
@@ -77,10 +83,10 @@ class Calendar
      * Pour récupérer cette information, il suffit de comparer en formatant le mois et l'année de notre date
      * au moi et à l'année que l'on a au niveau du constructeur
      * Est-ce que le jour est dans le moi en cours
-     * @param DateTime $date
+     * @param DateTimeInterface $date
      * @return bool
      */
-    public function withinMonth(DateTime $date) : bool{
+    public function withinMonth(DateTimeInterface $date) : bool{
         return $this->getStartingDay()->format('Y-m') === $date->format('Y-m');
     }
 
